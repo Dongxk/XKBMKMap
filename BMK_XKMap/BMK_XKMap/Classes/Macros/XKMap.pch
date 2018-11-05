@@ -1,0 +1,23 @@
+
+//
+//  XKMap.pch
+//  BMK_XKMap
+//
+//  Created by 董向坤 on 2018/11/5.
+//  Copyright © 2018 晓坤. All rights reserved.
+//
+
+#ifndef XKMap_pch
+#define XKMap_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "UtilsMacros.h"
+
+#import <BaiduMapAPI_Base/BMKMapManager.h>
+#import <BaiduMapAPI_Map/BMKMapComponent.h>
+#import <BaiduMapAPI_Location/BMKLocationService.h>
+#import <BaiduMapAPI_Search/BMKGeocodeSearch.h>
+
+#endif /* XKMap_pch */
