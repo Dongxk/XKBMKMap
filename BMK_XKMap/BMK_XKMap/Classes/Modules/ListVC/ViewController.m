@@ -9,7 +9,8 @@
 #import "ViewController.h"
 #import "LocationViewController.h"
 #import "PlotPointViewController.h"
-
+#import "PaoPaoViewController.h"
+#import "DefinedPaopaoViewController.h"
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @end
@@ -74,9 +75,11 @@
         [self.navigationController pushViewController:vc animated:YES];
     }else if (indexPath.row == 1){
         [self.navigationController pushViewController:[PlotPointViewController new] animated:YES];
+    }else if (indexPath.row == 2){
+        [self.navigationController pushViewController:[PaoPaoViewController new] animated:YES];
+    }else if (indexPath.row == 3){
+        [self.navigationController pushViewController:[DefinedPaopaoViewController new] animated:YES];
     }
-    
-    
 }
 
 

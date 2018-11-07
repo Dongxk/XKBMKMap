@@ -8,11 +8,6 @@
 
 #import "LocationViewController.h"
 
-#import <BaiduMapAPI_Map/BMKMapComponent.h>
-#import <BaiduMapAPI_Location/BMKLocationService.h>
-#import <BaiduMapAPI_Search/BMKGeocodeSearch.h>
-
-
 
 @interface LocationViewController ()<BMKMapViewDelegate, BMKLocationServiceDelegate, BMKGeoCodeSearchDelegate>
 
