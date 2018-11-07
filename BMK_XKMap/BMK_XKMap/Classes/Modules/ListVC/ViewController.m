@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "LocationViewController.h"
-
+#import "PlotPointViewController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -44,15 +44,12 @@
         cell.textLabel.text = @"定位";
         cell.detailTextLabel.text = @"定位";
     }else if (indexPath.row == 1) {
-        cell.textLabel.text = @"单个描点";
+        cell.textLabel.text = @"描点";
         cell.detailTextLabel.text = @"通过经纬度，显示位置";
     }else if (indexPath.row == 2) {
-        cell.textLabel.text = @"组描点";
-        cell.detailTextLabel.text = @"通过一组经纬度，显示多个位置";
+        cell.textLabel.text = @"气泡";
+        cell.detailTextLabel.text = @"气泡事件";
     }else if (indexPath.row == 3) {
-        cell.textLabel.text = @"气泡点击事件";
-        cell.detailTextLabel.text = @"点击气泡，获取到点击事件";
-    }else if (indexPath.row == 4) {
         cell.textLabel.text = @"自定义大头针,给气泡加tag值";
         cell.detailTextLabel.text = @"多个位置描点后, 通过tag值区分点击的气泡(百度没有该功能，需要自定义实现)";
     }
@@ -75,6 +72,8 @@
     if (indexPath.row == 0) {
         LocationViewController *vc = [LocationViewController new];
         [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.row == 1){
+        [self.navigationController pushViewController:[PlotPointViewController new] animated:YES];
     }
     
     
@@ -90,5 +89,6 @@
     // Pass the selected object to the new view controller.
 }
 */
+
 
 @end

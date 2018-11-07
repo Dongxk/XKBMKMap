@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D0CD05F219121EE00F4C229 /* PlotPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0CD05E219121EE00F4C229 /* PlotPointViewController.m */; };
 		6D1BFE192190434600E40809 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1BFE182190434600E40809 /* libstdc++.6.0.9.tbd */; };
 		6D1BFE1F2190451D00E40809 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1BFE1C2190451D00E40809 /* ViewController.m */; };
 		6D1BFE202190451D00E40809 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D1BFE1D2190451D00E40809 /* ViewController.xib */; };
@@ -59,6 +60,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D0CD05D219121EE00F4C229 /* PlotPointViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlotPointViewController.h; sourceTree = "<group>"; };
+		6D0CD05E219121EE00F4C229 /* PlotPointViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlotPointViewController.m; sourceTree = "<group>"; };
 		6D1BFE1721903E0C00E40809 /* UtilsMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
 		6D1BFE182190434600E40809 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = "libstdc++.6.0.9.tbd"; sourceTree = "<group>"; };
 		6D1BFE1C2190451D00E40809 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -150,6 +153,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D0CD05B2191214200F4C229 /* ListVC */ = {
+			isa = PBXGroup;
+			children = (
+				6D1BFE1E2190451D00E40809 /* ViewController.h */,
+				6D1BFE1C2190451D00E40809 /* ViewController.m */,
+				6D1BFE1D2190451D00E40809 /* ViewController.xib */,
+			);
+			path = ListVC;
+			sourceTree = "<group>";
+		};
+		6D0CD05C2191217800F4C229 /* PlotPoint(描点) */ = {
+			isa = PBXGroup;
+			children = (
+				6D0CD05D219121EE00F4C229 /* PlotPointViewController.h */,
+				6D0CD05E219121EE00F4C229 /* PlotPointViewController.m */,
+			);
+			path = "PlotPoint(描点)";
+			sourceTree = "<group>";
+		};
 		6D1BFE1A219044D000E40809 /* LocationVC 定位 */ = {
 			isa = PBXGroup;
 			children = (
@@ -282,9 +304,8 @@
 		6D1DE1EB21902C1900A81758 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				6D1BFE1E2190451D00E40809 /* ViewController.h */,
-				6D1BFE1C2190451D00E40809 /* ViewController.m */,
-				6D1BFE1D2190451D00E40809 /* ViewController.xib */,
+				6D0CD05B2191214200F4C229 /* ListVC */,
+				6D0CD05C2191217800F4C229 /* PlotPoint(描点) */,
 				6D1BFE1A219044D000E40809 /* LocationVC 定位 */,
 			);
 			path = Modules;
@@ -455,6 +476,7 @@
 				6D1DE1A621902BFB00A81758 /* AppDelegate.m in Sources */,
 				6D1BFE1F2190451D00E40809 /* ViewController.m in Sources */,
 				6D1DE1FE21902C1900A81758 /* LocationViewController.m in Sources */,
+				6D0CD05F219121EE00F4C229 /* PlotPointViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
