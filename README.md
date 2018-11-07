@@ -9,4 +9,4 @@ https://www.jianshu.com/p/be592ed98ebf
 
 #### 效果：
 
-[image](https://raw.githubusercontent.com/Dongxk/XKBMKMap/master/BMK_XKMap/xkmap.gif)
+[效果](https://raw.githubusercontent.com/Dongxk/XKBMKMap/master/BMK_XKMap/xkmap.gif)
